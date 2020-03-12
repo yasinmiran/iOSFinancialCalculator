@@ -7,19 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2401C97A2414495B0049B036 /* View+KeyboardAvoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401C9792414495B0049B036 /* View+KeyboardAvoid.swift */; };
+		2401C97C241449B60049B036 /* UIResponder+CurrentResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401C97B241449B60049B036 /* UIResponder+CurrentResponder.swift */; };
+		2401C97E24144A160049B036 /* Double+FixedPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401C97D24144A160049B036 /* Double+FixedPoints.swift */; };
+		2401C98124144C800049B036 /* CalculationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401C98024144C800049B036 /* CalculationException.swift */; };
+		2401C9852414570E0049B036 /* CommonAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401C9842414570E0049B036 /* CommonAlerts.swift */; };
+		240851FE2417F850003DD997 /* UITextField+DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240851FD2417F850003DD997 /* UITextField+DoneButton.swift */; };
+		24325D552410FF71001A7214 /* LabeldTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D542410FF71001A7214 /* LabeldTextField.swift */; };
+		24325D5C2411392F001A7214 /* CustomVerticalSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D5B2411392F001A7214 /* CustomVerticalSpacer.swift */; };
+		24325D6124116CBC001A7214 /* KeyboardAvoider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D6024116CBC001A7214 /* KeyboardAvoider.swift */; };
+		24325D6324117B57001A7214 /* NavigationViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D6224117B57001A7214 /* NavigationViewWrapper.swift */; };
+		24325D6624118CA0001A7214 /* MortgageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D6524118CA0001A7214 /* MortgageView.swift */; };
+		24325D68241190C0001A7214 /* LoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D67241190C0001A7214 /* LoanView.swift */; };
+		24325D6A2411A2D8001A7214 /* Mortgage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24325D692411A2D8001A7214 /* Mortgage.swift */; };
+		24385A6124122A8A0028543C /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24385A6024122A8A0028543C /* CalculateButton.swift */; };
+		24385A63241230F00028543C /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24385A62241230F00028543C /* Loan.swift */; };
+		243FECCB2414B6D0000CCC1F /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECCA2414B6D0000CCC1F /* SavingsView.swift */; };
+		243FECCD2414B947000CCC1F /* Savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECCC2414B947000CCC1F /* Savings.swift */; };
+		243FECCF2414DE91000CCC1F /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECCE2414DE91000CCC1F /* Investment.swift */; };
+		243FECD1241524FC000CCC1F /* InvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECD0241524FC000CCC1F /* InvestmentView.swift */; };
+		243FECD424159C77000CCC1F /* LoanAmortization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECD324159C77000CCC1F /* LoanAmortization.swift */; };
+		243FECD624159E34000CCC1F /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECD524159E34000CCC1F /* Array+Chunked.swift */; };
+		243FECD82415A7EE000CCC1F /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243FECD72415A7EE000CCC1F /* Color+Custom.swift */; };
+		244691592416A82300EC85A6 /* LoanHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244691582416A82300EC85A6 /* LoanHelpView.swift */; };
+		245E00A824170A3D0001CF13 /* MortgageHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E00A724170A3D0001CF13 /* MortgageHelpView.swift */; };
+		245E00AC24170A820001CF13 /* InvestmentHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E00AB24170A820001CF13 /* InvestmentHelpView.swift */; };
+		245E00AE24170A9F0001CF13 /* SavingsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E00AD24170A9F0001CF13 /* SavingsHelpView.swift */; };
+		245E00B324172E780001CF13 /* SheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E00B224172E780001CF13 /* SheetHelper.swift */; };
+		245E00B724174E3B0001CF13 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E00B624174E3B0001CF13 /* Constants.swift */; };
 		24AA536C240D997400C3C576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA536B240D997400C3C576 /* AppDelegate.swift */; };
 		24AA536E240D997400C3C576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA536D240D997400C3C576 /* SceneDelegate.swift */; };
-		24AA5370240D997400C3C576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA536F240D997400C3C576 /* ContentView.swift */; };
+		24AA5370240D997400C3C576 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA536F240D997400C3C576 /* HomeView.swift */; };
 		24AA5372240D997500C3C576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5371240D997500C3C576 /* Assets.xcassets */; };
 		24AA5375240D997500C3C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5374240D997500C3C576 /* Preview Assets.xcassets */; };
 		24AA5378240D997500C3C576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AA5376240D997500C3C576 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2401C9792414495B0049B036 /* View+KeyboardAvoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+KeyboardAvoid.swift"; sourceTree = "<group>"; };
+		2401C97B241449B60049B036 /* UIResponder+CurrentResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+CurrentResponder.swift"; sourceTree = "<group>"; };
+		2401C97D24144A160049B036 /* Double+FixedPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+FixedPoints.swift"; sourceTree = "<group>"; };
+		2401C98024144C800049B036 /* CalculationException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationException.swift; sourceTree = "<group>"; };
+		2401C9842414570E0049B036 /* CommonAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAlerts.swift; sourceTree = "<group>"; };
+		240851FD2417F850003DD997 /* UITextField+DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+DoneButton.swift"; sourceTree = "<group>"; };
+		24325D542410FF71001A7214 /* LabeldTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeldTextField.swift; sourceTree = "<group>"; };
+		24325D5B2411392F001A7214 /* CustomVerticalSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVerticalSpacer.swift; sourceTree = "<group>"; };
+		24325D6024116CBC001A7214 /* KeyboardAvoider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoider.swift; sourceTree = "<group>"; };
+		24325D6224117B57001A7214 /* NavigationViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewWrapper.swift; sourceTree = "<group>"; };
+		24325D6524118CA0001A7214 /* MortgageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageView.swift; sourceTree = "<group>"; };
+		24325D67241190C0001A7214 /* LoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanView.swift; sourceTree = "<group>"; };
+		24325D692411A2D8001A7214 /* Mortgage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mortgage.swift; sourceTree = "<group>"; };
+		24385A6024122A8A0028543C /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		24385A62241230F00028543C /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		243FECCA2414B6D0000CCC1F /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		243FECCC2414B947000CCC1F /* Savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savings.swift; sourceTree = "<group>"; };
+		243FECCE2414DE91000CCC1F /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		243FECD0241524FC000CCC1F /* InvestmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentView.swift; sourceTree = "<group>"; };
+		243FECD324159C77000CCC1F /* LoanAmortization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanAmortization.swift; sourceTree = "<group>"; };
+		243FECD524159E34000CCC1F /* Array+Chunked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Chunked.swift"; sourceTree = "<group>"; };
+		243FECD72415A7EE000CCC1F /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
+		244691582416A82300EC85A6 /* LoanHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanHelpView.swift; sourceTree = "<group>"; };
+		245E00A724170A3D0001CF13 /* MortgageHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageHelpView.swift; sourceTree = "<group>"; };
+		245E00AB24170A820001CF13 /* InvestmentHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentHelpView.swift; sourceTree = "<group>"; };
+		245E00AD24170A9F0001CF13 /* SavingsHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsHelpView.swift; sourceTree = "<group>"; };
+		245E00B224172E780001CF13 /* SheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHelper.swift; sourceTree = "<group>"; };
+		245E00B624174E3B0001CF13 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		24AA5368240D997400C3C576 /* FinCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AA536B240D997400C3C576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24AA536D240D997400C3C576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24AA536F240D997400C3C576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24AA536F240D997400C3C576 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		24AA5371240D997500C3C576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24AA5374240D997500C3C576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24AA5377240D997500C3C576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +93,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2401C978241449310049B036 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2401C9792414495B0049B036 /* View+KeyboardAvoid.swift */,
+				2401C97B241449B60049B036 /* UIResponder+CurrentResponder.swift */,
+				2401C97D24144A160049B036 /* Double+FixedPoints.swift */,
+				243FECD524159E34000CCC1F /* Array+Chunked.swift */,
+				243FECD72415A7EE000CCC1F /* Color+Custom.swift */,
+				240851FD2417F850003DD997 /* UITextField+DoneButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2401C97F24144C5E0049B036 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				2401C98024144C800049B036 /* CalculationException.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		2401C982241456EE0049B036 /* Alert Models */ = {
+			isa = PBXGroup;
+			children = (
+				2401C9842414570E0049B036 /* CommonAlerts.swift */,
+			);
+			path = "Alert Models";
+			sourceTree = "<group>";
+		};
+		24325D502410DC0B001A7214 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				2446915D2416FDA800EC85A6 /* Features */,
+				24325D6D2411A39C001A7214 /* Main Controllers */,
+				24325D5624112FA6001A7214 /* Wrappers */,
+				24325D532410E2E7001A7214 /* Components */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		24325D532410E2E7001A7214 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				24325D542410FF71001A7214 /* LabeldTextField.swift */,
+				24325D5B2411392F001A7214 /* CustomVerticalSpacer.swift */,
+				24385A6024122A8A0028543C /* CalculateButton.swift */,
+				245E00B224172E780001CF13 /* SheetHelper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		24325D5624112FA6001A7214 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				24325D6024116CBC001A7214 /* KeyboardAvoider.swift */,
+				24325D6224117B57001A7214 /* NavigationViewWrapper.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		24325D6B2411A33D001A7214 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				243FECD224159C5D000CCC1F /* Calculations */,
+				24325D692411A2D8001A7214 /* Mortgage.swift */,
+				24385A62241230F00028543C /* Loan.swift */,
+				243FECCC2414B947000CCC1F /* Savings.swift */,
+				243FECCE2414DE91000CCC1F /* Investment.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		24325D6D2411A39C001A7214 /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24AA536F240D997400C3C576 /* HomeView.swift */,
+				24AA536B240D997400C3C576 /* AppDelegate.swift */,
+				24AA536D240D997400C3C576 /* SceneDelegate.swift */,
+			);
+			path = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		243FECD224159C5D000CCC1F /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				243FECD324159C77000CCC1F /* LoanAmortization.swift */,
+			);
+			path = Calculations;
+			sourceTree = "<group>";
+		};
+		2446915D2416FDA800EC85A6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				245E00AA24170A670001CF13 /* Investment */,
+				245E00A924170A550001CF13 /* Savings */,
+				245E00A624170A040001CF13 /* Mortgage */,
+				2446915E2416FDC400EC85A6 /* Loan */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2446915E2416FDC400EC85A6 /* Loan */ = {
+			isa = PBXGroup;
+			children = (
+				244691582416A82300EC85A6 /* LoanHelpView.swift */,
+				24325D67241190C0001A7214 /* LoanView.swift */,
+			);
+			path = Loan;
+			sourceTree = "<group>";
+		};
+		245E00A624170A040001CF13 /* Mortgage */ = {
+			isa = PBXGroup;
+			children = (
+				24325D6524118CA0001A7214 /* MortgageView.swift */,
+				245E00A724170A3D0001CF13 /* MortgageHelpView.swift */,
+			);
+			path = Mortgage;
+			sourceTree = "<group>";
+		};
+		245E00A924170A550001CF13 /* Savings */ = {
+			isa = PBXGroup;
+			children = (
+				243FECCA2414B6D0000CCC1F /* SavingsView.swift */,
+				245E00AD24170A9F0001CF13 /* SavingsHelpView.swift */,
+			);
+			path = Savings;
+			sourceTree = "<group>";
+		};
+		245E00AA24170A670001CF13 /* Investment */ = {
+			isa = PBXGroup;
+			children = (
+				243FECD0241524FC000CCC1F /* InvestmentView.swift */,
+				245E00AB24170A820001CF13 /* InvestmentHelpView.swift */,
+			);
+			path = Investment;
+			sourceTree = "<group>";
+		};
+		245E00B424174DDA0001CF13 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				245E00B624174E3B0001CF13 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		24AA535F240D997400C3C576 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +257,16 @@
 		24AA536A240D997400C3C576 /* FinCal */ = {
 			isa = PBXGroup;
 			children = (
-				24AA536B240D997400C3C576 /* AppDelegate.swift */,
-				24AA536D240D997400C3C576 /* SceneDelegate.swift */,
-				24AA536F240D997400C3C576 /* ContentView.swift */,
-				24AA5371240D997500C3C576 /* Assets.xcassets */,
+				245E00B424174DDA0001CF13 /* Constants */,
+				24325D502410DC0B001A7214 /* ModelViews */,
+				24325D6B2411A33D001A7214 /* ViewModels */,
+				2401C982241456EE0049B036 /* Alert Models */,
+				2401C97F24144C5E0049B036 /* Exceptions */,
+				2401C978241449310049B036 /* Extensions */,
+				24AA5373240D997500C3C576 /* Preview Content */,
 				24AA5376240D997500C3C576 /* LaunchScreen.storyboard */,
 				24AA5379240D997500C3C576 /* Info.plist */,
-				24AA5373240D997500C3C576 /* Preview Content */,
+				24AA5371240D997500C3C576 /* Assets.xcassets */,
 			);
 			path = FinCal;
 			sourceTree = "<group>";
@@ -146,9 +350,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245E00AC24170A820001CF13 /* InvestmentHelpView.swift in Sources */,
+				24325D6624118CA0001A7214 /* MortgageView.swift in Sources */,
 				24AA536C240D997400C3C576 /* AppDelegate.swift in Sources */,
+				243FECD1241524FC000CCC1F /* InvestmentView.swift in Sources */,
+				245E00B324172E780001CF13 /* SheetHelper.swift in Sources */,
+				245E00B724174E3B0001CF13 /* Constants.swift in Sources */,
+				245E00AE24170A9F0001CF13 /* SavingsHelpView.swift in Sources */,
+				243FECCD2414B947000CCC1F /* Savings.swift in Sources */,
+				243FECCF2414DE91000CCC1F /* Investment.swift in Sources */,
+				240851FE2417F850003DD997 /* UITextField+DoneButton.swift in Sources */,
+				24325D552410FF71001A7214 /* LabeldTextField.swift in Sources */,
+				243FECD424159C77000CCC1F /* LoanAmortization.swift in Sources */,
+				245E00A824170A3D0001CF13 /* MortgageHelpView.swift in Sources */,
+				243FECCB2414B6D0000CCC1F /* SavingsView.swift in Sources */,
+				243FECD624159E34000CCC1F /* Array+Chunked.swift in Sources */,
+				2401C98124144C800049B036 /* CalculationException.swift in Sources */,
+				24325D6324117B57001A7214 /* NavigationViewWrapper.swift in Sources */,
+				2401C9852414570E0049B036 /* CommonAlerts.swift in Sources */,
+				24325D68241190C0001A7214 /* LoanView.swift in Sources */,
+				2401C97E24144A160049B036 /* Double+FixedPoints.swift in Sources */,
 				24AA536E240D997400C3C576 /* SceneDelegate.swift in Sources */,
-				24AA5370240D997400C3C576 /* ContentView.swift in Sources */,
+				24AA5370240D997400C3C576 /* HomeView.swift in Sources */,
+				24385A63241230F00028543C /* Loan.swift in Sources */,
+				2401C97A2414495B0049B036 /* View+KeyboardAvoid.swift in Sources */,
+				244691592416A82300EC85A6 /* LoanHelpView.swift in Sources */,
+				243FECD82415A7EE000CCC1F /* Color+Custom.swift in Sources */,
+				2401C97C241449B60049B036 /* UIResponder+CurrentResponder.swift in Sources */,
+				24385A6124122A8A0028543C /* CalculateButton.swift in Sources */,
+				24325D6A2411A2D8001A7214 /* Mortgage.swift in Sources */,
+				24325D6124116CBC001A7214 /* KeyboardAvoider.swift in Sources */,
+				24325D5C2411392F001A7214 /* CustomVerticalSpacer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,16 +518,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FinCal/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S2B9WWMGM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FinCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.yazeen.FinCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,16 +540,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FinCal/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S2B9WWMGM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FinCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.yazeen.FinCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
