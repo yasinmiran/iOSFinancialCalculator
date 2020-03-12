@@ -38,7 +38,7 @@ struct NavigationViewWrapper<Content:View>: View {
                         .foregroundColor(Color.white),
                     displayMode: .large
             )
-        }.onTapGesture(count: 2) {
+        }/*.onTapGesture(count: 2) {
             // hides the keyboard when clicked anywhere inside the navigation view
             let keyWindow = UIApplication.shared.connectedScenes
                 .filter({$0.activationState == .foregroundActive})
@@ -47,7 +47,7 @@ struct NavigationViewWrapper<Content:View>: View {
                 .first?.windows
                 .filter({$0.isKeyWindow}).first
             keyWindow?.endEditing(true)
-        }
+        }*/
         //.edgesIgnoringSafeArea(.bottom)
         .background(colorScheme == .light ? Color.white : Color.primary)
         .navigationViewStyle(StackNavigationViewStyle())
