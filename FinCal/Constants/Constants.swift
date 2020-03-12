@@ -13,7 +13,7 @@ final class Constants {
     // Investment
     
     static let Investment_Title = "Investment"
-    static let Investment_Desc = "An investment is the purchase of goods that are not consumed today but are used in the future to create wealth."
+    static let Investment_Desc = "A financial investment/fixed-savings is an asset that you put money into with the hope that it will grow or appreciate into a larger sum of money."
     
     static let Investment_PV = "Present Value"
     static let Investment_PV_Desc = "The starting amount you invest in the account or your current balance in an existing investment account."
@@ -64,7 +64,7 @@ final class Constants {
     static let Mortgage_IR = "Interest Rate"
     static let Mortgage_IR_Desc = "The annual nominal interest rate, or stated rate of the mortgage."
 
-    static let Mortgage_PMT = "Monthly Installments"
+    static let Mortgage_PMT = "Monthly Installment"
     static let Mortgage_PMT_Desc = "The payment amount to be paid on this mortgage on a monthly basis toward principal and interest."
 
     static let Mortgage_NM = "Number of Months"
@@ -81,7 +81,7 @@ final class Constants {
     static let Loan_IR = "Interest Rate"
     static let Loan_IR_Desc = "The annual nominal interest rate, or stated rate of the loan."
 
-    static let Loan_PMT = "Monthly Installments"
+    static let Loan_PMT = "Monthly Installment"
     static let Loan_PMT_Desc = "The amount to be paid toward the loan at each monthly payment due date."
     
     static let Loan_NM = "Number of Months"

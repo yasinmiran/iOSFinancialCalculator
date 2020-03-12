@@ -75,6 +75,7 @@ struct CustomUIKitTextField: UIViewRepresentable {
         textField.borderStyle = .roundedRect
         textField.isUserInteractionEnabled = !self.disabled
         textField.clearButtonMode = .always
+        textField.autocorrectionType = .no
         textField.addDoneCancelToolbar()
         
         if self.disabled {

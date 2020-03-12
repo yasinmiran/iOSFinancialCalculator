@@ -51,7 +51,7 @@ class Loan: ObservableObject {
         if calculationsDisabled {
             viewAlert = ViewAlertMessage(
                 title: "Unable to Calculate",
-                body: "To calculate, atleast 1 entry must left empty!",
+                body: "To calculate, atleast 1 entry must be left empty!",
                 actionButtonText: "Got It!"
             )
             showAlert = true

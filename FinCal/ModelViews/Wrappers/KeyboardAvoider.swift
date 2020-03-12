@@ -150,6 +150,8 @@ class KeyboardHandler:NSObject, ObservableObject, UIGestureRecognizerDelegate {
         
         guard let _scrollview = scrollview else { return }
         
+        // let accViewHeight = _activeView.inputAccessoryView?.bounds.height ?? 0
+        
         let targetFrame = _activeView.convert(_activeView.bounds, to: nil)
         let targetY = targetFrame.maxY
         let containerY = UIScreen.main.bounds.height - keyboardHeight
