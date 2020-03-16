@@ -51,7 +51,7 @@ final class Constants {
     static let Savings_FV_Desc = "Future savings based on the compounded series of calculation."
 
     static let Savings_NY = "No of Years"
-    static let Savings_NY_Desc = "How far into the future will you be making these deposits?  This is the moment in time where the value of your account will be calculated."
+    static let Savings_NY_Desc = "How far into the future will you be making these deposits? This is the moment in time where the value of your account will be calculated."
     
     // Mortgage
     

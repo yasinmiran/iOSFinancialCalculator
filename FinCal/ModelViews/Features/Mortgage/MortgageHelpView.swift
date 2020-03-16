@@ -19,22 +19,24 @@ struct MortgageHelpView: View {
                 title: Constants.Mortgage_Title,
                 shortDesc: Constants.Mortgage_Desc
             )
-            FieldDescriptor(
-                instructionTitle: Constants.Mortgage_PA,
-                instructionDesc: Constants.Mortgage_PA_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Mortgage_IR,
-                instructionDesc: Constants.Mortgage_IR_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Mortgage_PMT,
-                instructionDesc: Constants.Mortgage_PMT_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Mortgage_NM,
-                instructionDesc:  Constants.Mortgage_NM_Desc
-            )
+            List {
+                FieldDescriptor(
+                    instructionTitle: Constants.Mortgage_PA,
+                    instructionDesc: Constants.Mortgage_PA_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Mortgage_IR,
+                    instructionDesc: Constants.Mortgage_IR_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Mortgage_PMT,
+                    instructionDesc: Constants.Mortgage_PMT_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Mortgage_NM,
+                    instructionDesc:  Constants.Mortgage_NM_Desc
+                )
+            }
             Spacer()
         }.padding(.horizontal, 15)
     }

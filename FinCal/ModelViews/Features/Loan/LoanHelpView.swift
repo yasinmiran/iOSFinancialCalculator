@@ -19,6 +19,7 @@ struct LoanHelpView: View {
                 title: Constants.Loan_Title,
                 shortDesc: Constants.Loan_Desc
             )
+            List {
             FieldDescriptor(
                 instructionTitle: Constants.Loan_PA,
                 instructionDesc: Constants.Loan_PA_Desc
@@ -35,6 +36,7 @@ struct LoanHelpView: View {
                 instructionTitle: Constants.Loan_NM,
                 instructionDesc:  Constants.Loan_NM_Desc
             )
+            }
             Spacer()
         }.padding(.horizontal, 15)
     }

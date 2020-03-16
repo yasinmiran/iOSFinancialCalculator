@@ -19,26 +19,28 @@ struct InvestmentHelpView: View {
                 title: Constants.Investment_Title,
                 shortDesc: Constants.Investment_Desc
             )
-            FieldDescriptor(
-                instructionTitle: Constants.Investment_PV,
-                instructionDesc: Constants.Investment_PV_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Investment_IR,
-                instructionDesc: Constants.Investment_IR_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Investment_CPY,
-                instructionDesc: Constants.Investment_CPY_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Investment_FV,
-                instructionDesc:Constants.Investment_FV_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Investment_NY,
-                instructionDesc:  Constants.Investment_NY_Desc
-            )
+            List {
+                FieldDescriptor(
+                    instructionTitle: Constants.Investment_PV,
+                    instructionDesc: Constants.Investment_PV_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Investment_IR,
+                    instructionDesc: Constants.Investment_IR_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Investment_CPY,
+                    instructionDesc: Constants.Investment_CPY_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Investment_FV,
+                    instructionDesc:Constants.Investment_FV_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Investment_NY,
+                    instructionDesc:  Constants.Investment_NY_Desc
+                )
+            }
             Spacer()
         }.padding(.horizontal, 15)
     }

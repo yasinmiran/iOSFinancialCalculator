@@ -31,7 +31,6 @@ struct ModalControlBar: View {
             }
             .frame(minWidth: 100, maxWidth: .infinity)
         }
-        
     }
     
 }
@@ -47,16 +46,19 @@ struct ModalDescription: View {
                 Section(
                     header: Text(title.uppercased())
                         .font(.title)
-                        .padding()) {
-                            Text(shortDesc)
-                                .font(.caption)
-                                .fontWeight(.light)
-                                .multilineTextAlignment(.center)
-                                .padding(.vertical, 2)
+                        .frame(minWidth: 100, maxWidth: .infinity)
+                ) {
+                    VStack {
+                        CustomVerticalSpacer(top: 2, bottom: 0)
+                        Text(shortDesc)
+                        .font(.subheadline)
+                        .fontWeight(.light)
+                        .multilineTextAlignment(.center)
+                    }
                 }
             }
-            .padding(.horizontal, 2)
-            .frame(minWidth: 0, maxWidth: .infinity)
+            .frame(minWidth: 200, maxWidth: .infinity)
+            .padding()
             Divider()
             CustomVerticalSpacer(top: 3, bottom: 1)
         }
@@ -85,7 +87,6 @@ struct FieldDescriptor: View {
                     Text(instructionDesc)
                         .font(.caption)
                         .fontWeight(.light)
-                        .italic()
                         .multilineTextAlignment(.leading)
                         .truncationMode(.tail)
                         .lineSpacing(2)
