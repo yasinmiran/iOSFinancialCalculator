@@ -20,22 +20,22 @@ struct LoanHelpView: View {
                 shortDesc: Constants.Loan_Desc
             )
             List {
-            FieldDescriptor(
-                instructionTitle: Constants.Loan_PA,
-                instructionDesc: Constants.Loan_PA_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Loan_IR,
-                instructionDesc: Constants.Loan_IR_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Loan_PMT,
-                instructionDesc: Constants.Loan_PMT_Desc
-            )
-            FieldDescriptor(
-                instructionTitle: Constants.Loan_NM,
-                instructionDesc:  Constants.Loan_NM_Desc
-            )
+                FieldDescriptor(
+                    instructionTitle: Constants.Loan_PA,
+                    instructionDesc: Constants.Loan_PA_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Loan_IR,
+                    instructionDesc: Constants.Loan_IR_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Loan_PMT,
+                    instructionDesc: Constants.Loan_PMT_Desc
+                )
+                FieldDescriptor(
+                    instructionTitle: Constants.Loan_NM,
+                    instructionDesc:  Constants.Loan_NM_Desc
+                )
             }
             Spacer()
         }.padding(.horizontal, 15)

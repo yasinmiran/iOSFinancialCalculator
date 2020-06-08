@@ -11,7 +11,6 @@ import SwiftUI
 struct HomeView: View {
     
     var body: some View {
-        
         TabView {
             MortgageView().tabItem({
                 Image("mortgage").resizable()

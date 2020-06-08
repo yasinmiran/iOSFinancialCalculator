@@ -45,6 +45,7 @@ struct CalculateButton: View {
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 80)
         .padding(.horizontal, 20)
     }
+    
 }
 
 struct CalculateButton_Previews: PreviewProvider {

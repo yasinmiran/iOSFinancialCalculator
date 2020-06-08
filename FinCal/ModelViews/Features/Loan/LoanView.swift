@@ -42,8 +42,6 @@ struct LoanView: View {
         
     }
     
-    
-    
     func _loanAmountTXTField() -> some View {
         return LabeldTextField(
             label: "Loan Amount",

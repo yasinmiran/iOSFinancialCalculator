@@ -158,7 +158,6 @@ struct SavingsView: View {
         )
     }
     
-    
 }
 
 struct CompoundSavingsView_Previews: PreviewProvider {

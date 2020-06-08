@@ -51,9 +51,9 @@ struct ModalDescription: View {
                     VStack {
                         CustomVerticalSpacer(top: 2, bottom: 0)
                         Text(shortDesc)
-                        .font(.subheadline)
-                        .fontWeight(.light)
-                        .multilineTextAlignment(.center)
+                            .font(.subheadline)
+                            .fontWeight(.light)
+                            .multilineTextAlignment(.center)
                     }
                 }
             }
@@ -63,6 +63,7 @@ struct ModalDescription: View {
             CustomVerticalSpacer(top: 3, bottom: 1)
         }
     }
+    
 }
 
 struct FieldDescriptor: View {
