@@ -12,10 +12,10 @@ struct HomeView: View {
     
     var body: some View {
         TabView {
-            MortgageView().tabItem({
+            MortgageView().tabItem({ // Navigation View
                 Image("mortgage").resizable()
                 Text("Mortgage")
-            }).tag(0)
+            }).tag(0) // Unique tag for each item
             SavingsView().tabItem({
                 Image("c-savings").resizable()
                 Text("Savings")
